@@ -1,0 +1,13 @@
+├── ingestion/        # Python extractors (eurostat, comex_stat, comtrade)
+│   └── common/       # shared helpers: HTTP retries, logging, schemas
+├── orchestration/    # Airflow DAGs or Prefect flows
+├── dbt/              # dbt Core project (models/staging, models/marts, tests)
+├── dashboards/       # Superset/Metabase exports as code
+├── sql/              # one-off SQL, DDL for raw schemas
+├── tests/            # pytest tests, mirroring ingestion/
+├── docs/             # architecture notes, data dictionary, decisions
+├── scripts/          # small utilities (backfill, local setup)
+├── docker-compose.yml
+├── pyproject.toml
+├── .env.example
+└── README.md
