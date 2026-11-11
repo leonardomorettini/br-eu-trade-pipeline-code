@@ -1,0 +1,10 @@
+.env
+data/
+*.parquet
+*.csv
+dbt/target/
+dbt/logs/
+dbt/profiles.yml
+.venv/
+.ruff_cache/
+.pytest_cache/
